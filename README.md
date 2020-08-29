@@ -1,5 +1,5 @@
 # selenium_test_automation
-Test automation using selenium with python.
+Test automation using selenium with python using PyCharm IDE
 
 The tests are based on the following website used for web test automation: https://rahulshettyacademy.com/AutomationPractice/
 
