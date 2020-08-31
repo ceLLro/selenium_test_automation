@@ -206,6 +206,7 @@ class Window(unittest.TestCase):
             self.assertTrue(True)
         except:
             self.assertTrue(False)
+        driver.quit()
 
     def test_Switch_Tab(self):
         try:
@@ -218,6 +219,7 @@ class Window(unittest.TestCase):
             self.assertTrue(True)
         except:
             self.assertTrue(False)
+            driver.quit()
 
 
 class ElementDisplay(unittest.TestCase):
@@ -234,6 +236,7 @@ class ElementDisplay(unittest.TestCase):
                 self.assertTrue(False)
         except:
             self.assertTrue(False)
+        driver.quit()
 
     def test_Show_Button(self):
         try:
@@ -248,6 +251,7 @@ class ElementDisplay(unittest.TestCase):
                 self.assertTrue(False)
         except:
             self.assertTrue(False)
+        driver.quit()
 
 
 class MouseHover(unittest.TestCase):
@@ -261,6 +265,7 @@ class MouseHover(unittest.TestCase):
             self.assertTrue(True)
         except:
             self.assertTrue(False)
+        driver.quit()
 
     def test_iFrame(self):
         try:
@@ -270,6 +275,7 @@ class MouseHover(unittest.TestCase):
             self.assertTrue(True)
         except:
             self.assertTrue(False)
+        driver.quit()
 
 
 class WebTable(unittest.TestCase):
@@ -281,6 +287,7 @@ class WebTable(unittest.TestCase):
             self.assertTrue(True)
         except:
             self.assertTrue(False)
+            driver.quit()
 
 
 if __name__ == '__main__':
